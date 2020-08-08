@@ -1,0 +1,54 @@
+{
+    "name": "nodejs-restify-mongodb-jwt-ultimate-auth",
+    "version": "1.0.0",
+    "description": "Ultimate Nodejs Authentication API using JWT",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "cross-env NODE_ENV=production node src/server.js",
+        "dev": "cross-env NODE_ENV=development nodemon src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ejekanshjain/nodejs-restify-mongodb-jwt-ultimate-auth.git"
+    },
+    "keywords": [
+        "Node.js",
+        "MongoDB",
+        "Restify",
+        "JWT"
+    ],
+    "author": "Ekansh Jain",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ejekanshjain/nodejs-restify-mongodb-jwt-ultimate-auth/issues"
+    },
+    "homepage": "https://github.com/ejekanshjain/nodejs-restify-mongodb-jwt-ultimate-auth#readme",
+    "devDependencies": {
+        "eslint": "^7.6.0",
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cross-env": "^7.0.2",
+        "device-detector": "^1.0.2",
+        "dotenv": "^8.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.27",
+        "morgan": "^1.10.0",
+        "restify": "^8.5.1",
+        "restify-cors-middleware2": "^2.1.0",
+        "restify-errors": "^8.0.2"
+    },
+    "eslintConfig": {
+        "env": {
+            "commonjs": true,
+            "es2020": true,
+            "node": true
+        },
+        "extends": "eslint:recommended",
+        "parserOptions": {
+            "ecmaVersion": 11
+        },
+        "rules": {}
+    }
+}
